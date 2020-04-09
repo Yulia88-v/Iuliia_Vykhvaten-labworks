@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #d057d1;
+	margin-bottom: 30px;
+}
+ul li{
+	
+	list-style-type: circle;
+	margin-left: 20px;
+	padding-bottom: 15px;
+}
+ul li a{
+	text-decoration: none;
+	color: #f11d7c;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #d057d1;
+	margin-top: 30px;
+}
+#new{
+	margin-top: 20px;
+	color: #8a21c0;
+}
+#paris{
+	margin-top: 20px;
+	color: #960f9b;
+}

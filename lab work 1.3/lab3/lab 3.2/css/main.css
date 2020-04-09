@@ -1,0 +1,43 @@
+#navlist{
+position:relative;
+}
+#navlist li{
+padding:0;
+list-style-type: none;
+position:absolute;
+top:10px;
+margin-right: 20px;
+}
+#navlist li a{
+margin-left: 15px;
+}
+#navlist li, #navlist a{
+height:65px;
+display:block;
+
+}
+#home{
+left:15px;
+width:60px;
+}
+ #navlist a{
+ bottom: 15px;
+ position: relative;
+}
+#home{
+background:url(../img/smileys2.png) 0 5px;
+}
+#prev{
+left:93px;
+width:60px;
+}
+#prev{
+background:url(../img/smileys2.png) -67px 5px;
+}
+#next{
+left:179px;
+width:60px;
+}
+#next{
+background:url(../img/smileys2.png) -121px 5px;
+}
