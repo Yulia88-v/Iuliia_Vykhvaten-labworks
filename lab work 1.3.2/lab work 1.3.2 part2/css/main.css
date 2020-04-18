@@ -1,0 +1,33 @@
+h1{
+	color: #423361;
+	font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+table{
+	position: relative;
+	margin-top:40px;
+}
+thead{
+	color: #423361;
+	font-size: 20px;
+}
+td{
+	text-align: center;
+	font-size: 18px;
+}
+tbody img{
+	width: 200px;
+	height: 200px;
+}
+.group{
+	text-transform: uppercase;
+	color: #423361;
+	background: #d5cce8;	
+}
+ul li{
+	text-align: center;
+	color: #423361;
+	font-size: 18px;
+	list-style: none;
+}

@@ -1,0 +1,29 @@
+
+.square1{
+	background: #bada55;
+	width: 200px;
+	height: 200px;
+	border-radius: 0px 15px 0px 15px;
+    transition: 3s ease-out;
+}
+.square2{
+	background: #bada55;
+	width: 200px;
+	height: 200px;
+	border-radius: 15px 100px 15px 100px;
+	margin-top:30px;
+	transition: 3s ease-out;
+}
+.square1:hover {
+transform: scaleX(.5); 
+-webkit-transform : scaleX(.5);  
+-moz-transform : scaleX(.5);  
+-ms-transform : scaleX(.5); 
+}  
+.square2:hover{
+	transform: perspective(500px) scaleZ(2) rotateX(75deg) ;  
+-webkit-transform : perspective(500px) scaleZ(2) rotateX(75deg) ;  
+-moz-transform : perspective(500px) scaleZ(2) rotateX(75deg) ;  
+-ms-transform : perspective(500px) scaleZ(2) rotateX(75deg) ;  
+}  
+}

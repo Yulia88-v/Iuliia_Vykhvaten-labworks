@@ -1,0 +1,15 @@
+.container { 
+  
+   background: linear-gradient(to left, 
+      #eeeeee 25%, #cccccc 25% 50%, #eeeeee 50% 75%,  #cccccc 75% ); 
+    height: 300px;
+    width: 100%;
+   overflow: hidden;
+}
+.container>div{
+        width: 24%;
+        height: 300px;       
+        display: inline-block;
+        margin-left: 10px;
+        padding-top: 20px;
+    }

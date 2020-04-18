@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/space.jpg);
+}
+.sun{
+	position: relative;
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	background: #eba62d;
+	margin:0 auto;
+	border-radius: 100%;
+	transition: 0.5s ease-out;
+	margin-top:150px;
+}
+.line{
+	
+	display: block;
+	height: 500px;
+	width: 500px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	margin-top:30px;
+}
+.mars{
+	position: relative;
+     display: block;
+     height: 50px;
+     width: 50px;
+    bottom: 120px;
+     background: #cc3d1c;
+     border-radius: 100%;
+     animation: Orbita 6s linear infinite;
+     transition: 0.5s ease-out;
+     margin: 0 auto;
+    
+}
+
+.mars:hover{
+ transform: scale(1.2);
+ animation: none;
+}
+.sun:hover{
+ transform: scale(1.2);
+}
+
+@keyframes Orbita {
+   from { transform: rotate(0deg) translateX(260px) rotate(0deg); }
+  
+   100%   { transform: rotate(360deg) translateX(260px) rotate(-360deg); }
+
+}
+   

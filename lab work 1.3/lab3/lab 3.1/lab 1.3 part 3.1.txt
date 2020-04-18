@@ -1,0 +1,4 @@
+Использовать практики по следующим пунктам:
+создавать <div>
+inline style (common width=500px, menu block is 100pxX200px) content block is 400pxX200px
+СТруктура страницы должна быть heder, sladebar слева справа контент и footer
